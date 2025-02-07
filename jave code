@@ -22,6 +22,9 @@ function showPosition(position) {
     // تسجيل الرابط في الكونسول للاختبار
     console.log("WhatsApp Link:", whatsappLink);
 
+    // فتح الرابط في نافذة جديدة
+    window.open(whatsappLink, '_blank');
+    alert("تم إرسال موقعك بنجاح!");
 }
 
 function showError(error) {
